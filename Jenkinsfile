@@ -8,7 +8,7 @@ pipeline{
     }
     post{
       success{
-        echo 'Success'
+        echo 'Success!'
       }
       failure{
         echo 'fail...'
