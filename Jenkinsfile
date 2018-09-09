@@ -6,13 +6,13 @@ pipeline{
         sh './test.sh'
       }
     }
-    post{
-      success{
-        echo 'Success!'
-      }
-      failure{
-        echo 'failure...'
-      }
+  }
+  post{
+    success{
+      echo 'Success!'
+    }
+    failure{
+      echo 'failure...'
     }
   }
 }
