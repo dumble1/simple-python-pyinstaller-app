@@ -11,7 +11,7 @@ pipeline{
   post{
     success{
       echo 'Success!'
-      slackSend channel: '#test_jenkins', color: 'good', message: 'Hei Moi Treve!!Success!!!'
+      slackSend channel: '#test_jenkins', color: 'good', message: 'yksi Hei Moi Treve!!Success!!!'
     }
     failure{
       echo 'failure...'
