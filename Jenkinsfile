@@ -4,6 +4,7 @@ pipeline{
     stage('Build'){
       steps{
         sh './test.sh'
+        echo 'yksi kaksi kolme nelja viisi kuusi seitseman kahdeksan yhdeksan kymmenen'
       }
     }
   }
